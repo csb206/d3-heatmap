@@ -1,4 +1,5 @@
 $(function() {
+
         var table = [
           [4, 5, 6, 3],
           [8, 12, 4, 34],
@@ -20,7 +21,7 @@ $(function() {
 
             console.log('hello');
             var width = $('#width').val();
-            myHeatmap.width(width);
+            myHeatmap.width(width).minColor('green').maxColor('blue');
             chartWrapper.call(myHeatmap);
             return false;
         });
