@@ -25,3 +25,28 @@ $(function() {
             return false;
         });
 });     
+/*
+     var myHeatmap = heatmap();
+
+      var table = [
+        [1, 2, 3],
+        [4, 5, 6],
+        [7, 8, 9]
+      ]
+      d3.select('#vis')
+        .datum(table)
+        .call(myHeatmap);
+
+      d3.csv('ppg2008.csv', function(data) {
+
+        setTimeout(function() {
+            myHeatmap.width(800)
+                .height(1200)
+                .minColor('yellow')
+                .maxColor('red');
+            d3.select('#vis')
+                .datum(data)
+                .call(myHeatmap);
+        }, 3000);
+*/
+
