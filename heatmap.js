@@ -1,5 +1,3 @@
-/// <reference path="../typings/d3/d3.d.ts" />
-
 // Returns a heatmap chart function that can be used to generate a reusable
 // heatmap for a data table.
 function heatmap() {
